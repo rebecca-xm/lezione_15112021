@@ -11,17 +11,14 @@ const add = () => {
                     <label for "title">Titolo:</label>
                     <input type="text" id="title" name="title"/>
                 </div>    
-                <div>
                     <div class="row">
                         <label for "poster">Poster:</label>
                         <input type="text" id="poster" name="poster"/>
                     </div>
-                </div>
                     <div class="row">
                         <label for "year">Anno:</label>
                         <input type="number" min="1900" value="2021" id="year" name="year"/>
                     </div>
-                <div>
                     <div class="row">
                         <label for "description">Descrizione:</label>
                         <textarea id="description" name="description"/></textarea>
